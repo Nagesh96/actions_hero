@@ -9,11 +9,13 @@ on:
       - main
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: printing_commands
-      run: |
-        echo "Printing Commands"
-        pwd
-        ls -lrt
-        git --version
+  checking-versions:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: printing_commands
+        run: |
+          echo "Printing Commands"
+          pwd
+          ls -lrt
+          git --version
