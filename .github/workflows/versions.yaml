@@ -25,8 +25,7 @@ jobs:
     steps:
       - name: Updating and installing softwares
         run: |
-          apt-get update -y
-          java --version
+          sudo apt-get update -y
+          java --version || true
           sudo apt install default-jdk -y
           java --version
-        shell: bash
