@@ -29,3 +29,4 @@ jobs:
           java --version
           sudo apt install default-jdk -y
           java --version
+        shell: bash
