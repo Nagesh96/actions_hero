@@ -1,4 +1,4 @@
-name: Hello World Workflow
+name: Versions
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
 jobs:
   checking-versions:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: printing_commands
         run: |
@@ -19,3 +19,13 @@ jobs:
           pwd
           ls -lrt
           git --version
+  installing-packages:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: Updating and installing softwares
+        run: |
+          apt-get update -y
+          java --version
+          sudo apt install default-jdk -y
+          java --version
