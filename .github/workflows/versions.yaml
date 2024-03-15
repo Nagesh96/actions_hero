@@ -1,0 +1,19 @@
+name: Hello World Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  runs-on: ubuntu-latest
+  steps:
+    - name: printing_commands
+      run: |
+        echo "Printing Commands"
+        pwd
+        ls -lrt
+        git --version
