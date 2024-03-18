@@ -15,7 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: hello World
-        run: echo "Hello World"
+        run: |
+          echo "Hello World"
+          echo "Hi"
         shell: bash
   
   goodbye:
