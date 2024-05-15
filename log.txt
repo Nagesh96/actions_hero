@@ -1,0 +1,33 @@
+2024-05-15T15:00:37.275085381Z INFO: root: Dictionary created from filelist and datelist: {
+
+20240512_Sec_Cond1_SD.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=4, tm_min=2, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1), 20240512 Sec Cond2_SD.xls' time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=4, tm_min=3, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1),
+
+20240512 Sec_Cond1_DV.xls' time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=4, tm_min=11, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1), 20240512_Sec_Cond2_DV.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=4, tm_min=11, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1),
+
+20240512_Sec_Cond1_IR.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=4, tm_min=36, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1),
+
+20240512_Sec_Cond2_IR.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=4, tm_min=36, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1), 20240512_Sec_Cond1_NT.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=5, tm_min=47, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1),
+
+20240512 Sec_Cond2_NT.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=5, tm_min=53, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1),
+
+'20240512 Sec_Cond1_EM.xls': time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=6, tm_min=39, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1), 20240512_Sec_Cond2_EM.xls' time.struct_time(tm_year=2024, tm_mon=5, tm_mday=12, tm_hour=6, tm_min=42, tm_sec=0, tm_wday=6, tm_yday=133, tm_isdst=-1)}
+
+2024-05-15T15:00:37.275112594Z INFO:root: Security Detail root: Security Detail Came to try block Came to except block
+
+2024-05-15T15:00:37.275186017Z INFO: 2024-05-15T15:00:37.275231326Z INFO: root: Security Detail - exception is expected str, bytes or os. PathLike object, not struct_time Security Detail files
+
+2024-05-15T15:00:37.275913789Z ERROR: root: Exception on downloading 2024-05-15T15:00:37.275938114Z Traceback (most recent call last):
+
+2024-05-15T15:00:37.2759415447 File "/home/docuser/insert_security_detail.py", line 144, in get_data open (who [filename], 'wb').write)
+
+2024-05-15T15:00:37.275958762Z f.retrbinary('RETR {}'.format(filename), 2024-05-15T15:00:37.2759621272 TypeError: expected str, bytes or os. PathLike object, not struct_time Detail came to batch_log_error method
+
+2024-05-15T15:00:37.275978411Z INFO: root: Started Security 2024-05-15T15:00:37.278211551Z INFO: root: Started Security Detail came to batch_log_success method batch_id: 1740
+
+2024-05-15T15:00:37.315041531Z ERROR:root: Security Detail Came to except block going to RETURN something
+
+2024-05-15T15:00:37.3150730102 Traceback (most recent call last):
+
+2024-05-15T15:00:37.315077154Z File "/home/docuser/insert_security_detail.py", line 144, in get_data 2024-05-15T15:00:37.315080062Z f.retrbinary('RETR {}'.format(filename), open (who [filename], 'wb').write)
+
+2024-05-15T15:00:37.3150967572 TypeError: expected str, bytes or os. PathLike object, not struct_time￼Enter
