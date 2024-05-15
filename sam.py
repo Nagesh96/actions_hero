@@ -1,7 +1,8 @@
+who = dict(zip(filelist, datelist))
 try:
     logging.info('Security Detail Came to try block')
-    for filename in who.keys():
-        f.retrbinary('RETR {}'.format(filename), open(who[filename], 'wb').write)
+    for filename, date in who.items():
+        f.retrbinary('RETR {}'.format(filename), open(filename, 'wb').write)  # Use filename directly
     logging.info('Security Detail line -138 file going to before quit')
     f.quit()
     logging.info('Security Detail file going to after quit')
